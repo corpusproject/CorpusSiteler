@@ -1,0 +1,16 @@
+{
+  "name": "Corpus E-Sign, Contract & Legal Studio Pro (#009)",
+  "short_name": "Corpus E-Sign",
+  "description": "DocuSign & PandaDoc Pro class Local E-Signature Pad, Corporate Stamp Generator, Legal Contract Builder, and SHA-256 Certified A4 PDF Exporter.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}

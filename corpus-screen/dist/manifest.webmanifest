@@ -1,0 +1,18 @@
+{
+  "name": "Corpus Screen Studio Pro — 4K Screen, Webcam PiP & Audio Recorder",
+  "short_name": "Corpus Screen",
+  "description": "100% Free, Watermark-Free 4K Screen + Webcam PiP + System/Mic Audio Recorder with Live Laser Pointer & Telestrator.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
