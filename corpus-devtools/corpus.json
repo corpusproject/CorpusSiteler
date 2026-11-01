@@ -1,0 +1,8 @@
+{
+  "name": "corpus-devtools",
+  "version": "1.0.0",
+  "description": "Corpus Geliştirici Araçları ve Yardımcı Servisler",
+  "dependencies": {
+    "@corpus/ui-core": "^1.1.1"
+  }
+}
