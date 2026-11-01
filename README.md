@@ -33,7 +33,7 @@
 
 ### 🚀 Quick start
 ```bash
-git clone https://github.com/<your-username>/corpus.git
+git clone https://github.com/corpusproject/corpus.git
 cd corpus/corpus-qr      # pick any app
 npm install
 npm run dev              # http://localhost:5173
