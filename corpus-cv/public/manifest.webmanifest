@@ -1,0 +1,18 @@
+{
+  "name": "Corpus Resume, CV & Cover Letter Studio Pro (#007)",
+  "short_name": "Corpus CV",
+  "description": "100% Free FlowCV & Enhancv Pro Class ATS Resume, CV, Cover Letter Builder & Job Keyword Analyzer with A4 PDF/Word Export.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
