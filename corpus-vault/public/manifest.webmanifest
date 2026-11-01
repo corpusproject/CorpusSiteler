@@ -1,0 +1,16 @@
+{
+  "name": "Corpus Vault & File Encryption Studio Pro (#008)",
+  "short_name": "Corpus Vault",
+  "description": "Military-grade AES-256-GCM Local Password Manager, 2FA TOTP Authenticator, and File Encryption Studio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
