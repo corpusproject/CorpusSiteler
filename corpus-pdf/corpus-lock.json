@@ -1,0 +1,21 @@
+{
+  "name": "corpus-pdf",
+  "version": "1.0.0",
+  "lockfileVersion": 1,
+  "packages": {
+    "@corpus/ui-core": {
+      "version": "1.1.1",
+      "resolved": "http://localhost:4873/api/tarballs/1792772279685-277796380-ui-core-1.1.1.tgz?pkg=%40corpus%2Fui-core",
+      "integrity": "sha256-2c0c2026dc3be638dd869a199918a425e630d09d19256c2521b6440a7a5798b4",
+      "dependencies": {
+        "@corpus/sdk": "^1.0.0"
+      }
+    },
+    "@corpus/sdk": {
+      "version": "1.0.0",
+      "resolved": "http://localhost:4873/api/tarballs/1792768515080-464174526-sdk-1.0.0.tgz?pkg=%40corpus%2Fsdk",
+      "integrity": "sha256-6cd2390111568f555e02faf149f8c00f9459985d2e2885eb49f12b2ab4a59279",
+      "dependencies": {}
+    }
+  }
+}

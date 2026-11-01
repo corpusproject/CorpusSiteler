@@ -1,0 +1,18 @@
+{
+  "name": "Corpus PDF Pro — Acrobat Studio & Office Converter",
+  "short_name": "Corpus PDF",
+  "description": "100% Free, Zero-Storage Adobe Acrobat-class PDF Editor, Word/PPTX/Excel/Image to PDF Converter & Merger.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "corpus-pdf",
+  "version": "1.0.0",
+  "description": "Corpus PDF Düzenleme ve Dönüştürme Aracı",
+  "dependencies": {
+    "@corpus/ui-core": "^1.1.1"
+  }
+}
