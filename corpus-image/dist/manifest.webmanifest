@@ -1,0 +1,16 @@
+{
+  "name": "Corpus Image, Photo & Batch Compression Studio Pro (#010)",
+  "short_name": "Corpus Image",
+  "description": "TinyPNG Pro, Lightroom & Biometric Photo Studio — Local Batch Image Compressor, EXIF Stripper, Color Grader & Watermark Engine.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
