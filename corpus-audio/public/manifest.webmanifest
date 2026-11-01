@@ -1,0 +1,18 @@
+{
+  "name": "Corpus Audio, Vocal & Podcast Studio Pro (#006)",
+  "short_name": "Corpus Audio",
+  "description": "100% Free Audacity, Moises & VocalRemover Pro Class Waveform Editor, Vocal/Instrumental Separator, 10-Band EQ & MP4-to-Audio Converter.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
