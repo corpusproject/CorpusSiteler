@@ -93,7 +93,7 @@ corpus/
 ```
 
 ## 🤝 Contributing
-Contributions are welcome! Open an issue for bugs/ideas, or send a PR. Please follow the [design system](CORPUS_DESIGN_SYSTEM.md).
+Contributions are welcome! Open an issue for bugs/ideas, or send a PR. 
 
 ## 📄 License
 [MIT](LICENSE)
