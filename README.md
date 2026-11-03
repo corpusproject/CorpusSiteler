@@ -1,22 +1,22 @@
 <div align="center">
 
-# 🧠 CorpusSiteler
+<img src="docs/assets/corpus-banner.svg" alt="Corpus — Private by design. Powerful in your browser." width="100%" />
 
-### A privacy-first toolkit for everyday work
+# CorpusSiteler
 
-**50 free browser tools for documents, design, security, productivity, and development.**
+### 50 tools. One browser. Your workflow, your way.
 
-No account required · No backend required · Built with React, TypeScript, and Vite
+Free, privacy-minded tools for PDFs, documents, design, security, productivity, and development.
 
-[![MIT License](https://img.shields.io/badge/license-MIT-8b5cf6?style=for-the-badge)](LICENSE)
-![Tools](https://img.shields.io/badge/tools-50-6d5efc?style=for-the-badge)
-![React](https://img.shields.io/badge/React-19-149eca?style=for-the-badge&logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-8-646cff?style=for-the-badge&logo=vite&logoColor=white)
+[🇹🇷 Türkçe](#-türkçe) · [🇬🇧 English](#-english) · [Explore tools](#-tool-directory) · [Get started](#-quick-start)
 
-[🇹🇷 Türkçe](#-türkçe) · [🇬🇧 English](#-english) · [🧰 Tool directory](#-tool-directory) · [🚀 Quick start](#-quick-start)
+[![MIT License](https://img.shields.io/badge/license-MIT-8b5cf6?style=flat-square)](LICENSE)
+![50 browser tools](https://img.shields.io/badge/browser_tools-50-6d5efc?style=flat-square)
+![React](https://img.shields.io/badge/React-19-149eca?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat-square&logo=vite&logoColor=white)
 
-**If CorpusSiteler is useful to you, consider giving the repo a ⭐**
+**Open source · No account required · Built with React, TypeScript, and Vite**
 
 </div>
 
@@ -24,107 +24,59 @@ No account required · No backend required · Built with React, TypeScript, and 
 
 ## 🇹🇷 Türkçe
 
-CorpusSiteler; belge düzenleme, tasarım, güvenlik, analiz ve üretkenlik işleri için **50 bağımsız web aracını** bir araya getirir. Her araç kendi `corpus-*` klasöründe yer alır ve ayrı ayrı geliştirilebilir, çalıştırılabilir ve derlenebilir.
+CorpusSiteler, günlük işler için **50 bağımsız tarayıcı aracını** tek bir depoda buluşturur. PDF düzenlemeden QR tasarımına, OCR’dan proje yönetimine kadar ihtiyacınız olan aracı seçin ve kendi klasöründe çalıştırın.
 
-### ✨ Öne çıkanlar
+### Neden Corpus?
 
-- **PDF Studio:** PDF düzenleme ve imzalama; sayfa sıralama, filigran, birleştirme ve sayfa ayıklama; ayrıca görsel, Word, PowerPoint ve tablo dosyalarından PDF oluşturma.
-- **QR Studio:** vCard, Wi-Fi, web bağlantısı, WhatsApp, IBAN ve konum için QR üretme; tasarım düzenleme ve PNG, SVG ya da PDF dışa aktarma.
-- **Geniş araç koleksiyonu:** OCR, görsel ve ses araçları, parola kasası, P2P dosya aktarımı, geliştirici araçları, finans ve proje yönetimi.
-- **Bağımsız uygulamalar:** İhtiyacınız olan aracı seçip yalnızca onu çalıştırabilirsiniz.
-- **Modern web teknolojileri:** React, TypeScript, Vite ve Lucide ikonları.
-- **MIT lisansı:** Ücretsiz ve açık kaynak.
+| 🔐 Gizliliği önemser | 🧰 İhtiyacına göre seç | ⚡ Modern web teknolojileri |
+|---|---|---|
+| Uygulamalar istemci tarafında çalışacak şekilde tasarlanmıştır. Veri akışı araca göre değişebileceğinden hassas bilgilerde ilgili aracı ve izinleri kontrol edin. | Her `corpus-*` klasörü ayrı bir uygulamadır; tüm koleksiyonu çalıştırmak zorunda değilsiniz. | React, TypeScript, Vite ve Lucide ile geliştirilmiştir; MIT lisanslıdır. |
 
-> **Gizlilik hakkında:** Araçlar istemci tarafında çalışacak şekilde tasarlanmıştır; ancak özellikler araca göre değişebilir. Hassas verilerle kullanmadan önce ilgili aracın davranışını ve tarayıcı izinlerini inceleyin. P2P dosya aktarımı, örneğin, başka bir cihazla bağlantı kurar.
+### Öne çıkan araçlar
 
-### 🖼️ Görsel önizleme
+- **PDF Studio** — PDF düzenleme, imza, filigran, sayfa sıralama, birleştirme ve ayıklama; ayrıca yaygın belge ve görsel formatlarından PDF oluşturma.
+- **QR Studio** — vCard, Wi-Fi, web, WhatsApp, IBAN ve konum QR’ları; canlı önizleme ve PNG, SVG, PDF çıktısı.
+- **Günlük iş akışları** — OCR, görsel ve ses araçları, parola kasası, P2P dosya aktarımı, geliştirici araçları, finans ve proje yönetimi.
 
-Depoda bulunan QR Studio görseli:
+> **Gizlilik notu:** Araçların özellikleri ve veri işleme biçimi farklılık gösterebilir. Hassas verilerle kullanmadan önce ilgili aracın davranışını ve tarayıcı izinlerini inceleyin. P2P aktarım özelliği başka bir cihazla bağlantı kurar.
+
+### 🖼️ Arayüz önizlemesi
 
 <p align="center">
-  <img src="corpus-qr/src/assets/hero.png" alt="Corpus QR Studio görsel önizlemesi" width="360" />
+  <img src="docs/assets/qr-studio-preview.svg" alt="Corpus QR Studio arayüzünün temsili önizlemesi" width="900" />
 </p>
 
-> Gerçek arayüz ekran görüntüsü eklemek için uygulamayı çalıştırıp ekran görüntüsünü `docs/screenshots/` altında saklayın ve bu görseli o dosyaya yönlendirin.
-
-### 🚀 Hızlı başlangıç
-
-```bash
-git clone https://github.com/corpusproject/CorpusSiteler.git
-cd CorpusSiteler/corpus-pdf
-npm install
-npm run dev
-```
-
-Başka bir aracı çalıştırmak için `corpus-pdf` yerine [araç dizinindeki](#-tool-directory) klasör adını kullanın. Üretim derlemesini ilgili uygulama klasöründe alın:
-
-```bash
-npm run build
-```
-
-Derleme çıktısı uygulamanın `dist/` klasörüne yazılır. Geliştirme ve derleme komutları her uygulamanın kendi `package.json` dosyasından yürütülür.
-
-### 🧰 Tool directory
-
-| Kategori | Araçlar |
-|---|---|
-| 📄 **Belge ve ofis** | [PDF](corpus-pdf) · [Tarama / OCR](corpus-scan) · [CV](corpus-cv) · [Fatura](corpus-invoice) · [Sözleşme](corpus-contract) · [İmza](corpus-sign) · [Etiket](corpus-label) · [Sertifika](corpus-cert) |
-| 🎨 **Medya ve tasarım** | [Ses](corpus-audio) · [Görsel](corpus-image) · [Ekran stüdyosu](corpus-screen) · [Mockup](corpus-mockup) · [İnfografik](corpus-infographic) · [Marka](corpus-brand) |
-| 🔐 **Güvenlik ve gizlilik** | [Parola kasası](corpus-vault) · [Gizlilik](corpus-privacy) · [Pentest](corpus-pentest) · [Denetim](corpus-audit) · [P2P aktarım](corpus-transfer) |
-| 🧑‍💻 **Geliştirici araçları** | [DevTools](corpus-devtools) · [Diff](corpus-diff) · [Şema](corpus-schema) · [Yük testi](corpus-loadtest) · [Yerelleştirme](corpus-i18n) · [QR](corpus-qr) · [Prompt](corpus-prompt) |
-| 📊 **Proje ve iş** | [Gantt](corpus-gantt) · [Kanban](corpus-kanban) · [Zihin haritası](corpus-mind) · [Etkinlik](corpus-event) · [Sunum taslağı](corpus-pitch) · [Cap table](corpus-captable) · [RFP](corpus-rfp) · [Postmortem](corpus-postmortem) |
-| 💰 **Finans ve analiz** | [Hesap makinesi](corpus-calc) · [Kredi](corpus-credit) · [Bordro](corpus-payroll) · [Fiyatlandırma](corpus-pricing) · [BI](corpus-bi) · [A/B testi](corpus-abtest) |
-| 🌍 **Operasyon ve sürdürülebilirlik** | [Filo](corpus-fleet) · [Lojistik](corpus-logistics) · [OEE](corpus-oee) · [Enerji](corpus-energy) · [Karbon](corpus-carbon) · [Bulut](corpus-cloud) · [Patent](corpus-patent) |
-| 📣 **Pazarlama** | [SEO](corpus-seo) · [Sosyal medya](corpus-social) |
-
-### 🗂️ Depo yapısı
-
-```text
-CorpusSiteler/
-├── corpus-<tool>/       # bağımsız uygulama
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── dist/            # üretim derlemesi
-└── LICENSE
-```
-
-### 🤝 Katkıda bulunma
-
-Hata bildirimleri ve geliştirme fikirleri için [issue açın](https://github.com/corpusproject/CorpusSiteler/issues); katkılarınızı pull request olarak gönderebilirsiniz.
-
-### 📄 Lisans
-
-[MIT](LICENSE)
-
----
+<sub>Temsili arayüz görseli — çalışan uygulamadan alınmış ekran görüntüsü değildir. Gerçek ekran görüntüsü eklendiğinde bu görsel güncellenebilir.</sub>
 
 ## 🇬🇧 English
 
-CorpusSiteler brings together **50 independent browser tools** for documents, design, security, analytics, and productivity. Each app lives in its own `corpus-*` directory and can be developed, run, and built independently.
+CorpusSiteler brings **50 independent browser tools** together in one repository. Pick a tool for PDFs, QR design, OCR, productivity, and more—each app lives in its own folder and runs independently.
 
-### ✨ Highlights
+### Built for practical work
 
-- **PDF Studio:** Edit and sign PDFs, manage pages, add watermarks, merge or extract pages, and convert images, Word, PowerPoint, and spreadsheet files to PDF.
-- **QR Studio:** Create QR codes for vCards, Wi-Fi, URLs, WhatsApp, IBANs, and locations; customize the design and export to PNG, SVG, or PDF.
-- **A broad toolkit:** OCR, image and audio tools, a password vault, P2P file transfer, developer utilities, finance, and project planning.
-- **Choose what you need:** Each app is a separate project you can run on its own.
-- **Modern stack:** React, TypeScript, Vite, and Lucide icons.
-- **MIT licensed:** Free and open source.
+| 🔐 Privacy-minded | 🧰 Pick what you need | ⚡ Modern stack |
+|---|---|---|
+| Apps are designed to run client-side. Data handling can vary by tool, so review its behavior and permissions before using sensitive information. | Every `corpus-*` directory is a separate app; you don't need to run the whole collection. | Built with React, TypeScript, Vite, and Lucide. Released under the MIT license. |
 
-> **Privacy note:** Apps are designed to run client-side, but behavior varies by tool. Review an app's behavior and browser permissions before using sensitive data. P2P file transfer, for example, connects with another device.
+### Featured tools
 
-### 🖼️ Visual preview
+- **PDF Studio** — edit and sign PDFs, add watermarks, organize, merge, or extract pages, and create PDFs from common document and image formats.
+- **QR Studio** — create vCard, Wi-Fi, URL, WhatsApp, IBAN, and location QR codes; preview designs and export PNG, SVG, or PDF.
+- **Everyday toolkit** — OCR, image and audio apps, a password vault, P2P file transfer, developer utilities, finance, and project planning.
 
-The QR Studio visual asset included in this repository:
+> **Privacy note:** Capabilities and data handling vary by app. Check the relevant app's behavior and browser permissions before using sensitive data. P2P transfer connects to another device.
+
+### 🖥️ Interface preview
 
 <p align="center">
-  <img src="corpus-qr/src/assets/hero.png" alt="Corpus QR Studio visual preview" width="360" />
+  <img src="docs/assets/qr-studio-preview.svg" alt="Illustrative preview of the Corpus QR Studio interface" width="900" />
 </p>
 
-> To add an actual UI screenshot, capture the app while running, save it under `docs/screenshots/`, and update the image path above.
+<sub>Illustrative interface mockup, not a screenshot captured from the running app. Replace it with a real screenshot when one is available.</sub>
 
-### 🚀 Quick start
+## 🚀 Quick start
+
+Clone the repo, then run an app from its own directory:
 
 ```bash
 git clone https://github.com/corpusproject/CorpusSiteler.git
@@ -133,24 +85,70 @@ npm install
 npm run dev
 ```
 
-Replace `corpus-pdf` with another app directory from the [tool directory](#-tool-directory). To create a production build, run this inside the selected app's directory:
+Swap `corpus-pdf` for any app directory in the [tool directory](#-tool-directory). For a production build, run `npm run build` in that app folder; Vite writes the output to `dist/`.
 
-```bash
-npm run build
-```
+## 🎬 Demo
 
-The build output is written to that app's `dist/` directory. Run development and build commands from the individual app folder; each app has its own `package.json`.
+- **PDF Studio:** start `corpus-pdf`, open the PDF editor, then choose **Örnek PDF Aç** to try the sample document.
+- **QR Studio:** start `corpus-qr` and use the mode controls to preview vCard, Wi-Fi, web, WhatsApp, IBAN, or location QR designs.
 
-### 🤝 Contributing
+These demos run locally in your browser; no separate hosted demo URL is currently listed in this repository.
 
-Open a [GitHub Issue](https://github.com/corpusproject/CorpusSiteler/issues) to report bugs or suggest improvements. Pull requests are welcome.
+## 📲 Install
 
-### 📄 License
+Apps with install support can be added from a compatible browser using its **Install app** or **Add to Home Screen** option. Availability depends on the individual app, browser, and deployment origin. You can also use any app locally with the quick-start steps above.
+
+## 🧰 Tool directory
+
+| Category | Apps |
+|---|---|
+| 📄 **Documents & office** | [PDF](corpus-pdf) · [Scan / OCR](corpus-scan) · [CV](corpus-cv) · [Invoice](corpus-invoice) · [Contract](corpus-contract) · [Sign](corpus-sign) · [Label](corpus-label) · [Certificate](corpus-cert) |
+| 🎨 **Media & design** | [Audio](corpus-audio) · [Image](corpus-image) · [Screen studio](corpus-screen) · [Mockup](corpus-mockup) · [Infographic](corpus-infographic) · [Brand](corpus-brand) |
+| 🔐 **Security & privacy** | [Vault](corpus-vault) · [Privacy](corpus-privacy) · [Pentest](corpus-pentest) · [Audit](corpus-audit) · [P2P transfer](corpus-transfer) |
+| 🧑‍💻 **Developer tools** | [DevTools](corpus-devtools) · [Diff](corpus-diff) · [Schema](corpus-schema) · [Load test](corpus-loadtest) · [i18n](corpus-i18n) · [QR](corpus-qr) · [Prompt](corpus-prompt) |
+| 📊 **Projects & work** | [Gantt](corpus-gantt) · [Kanban](corpus-kanban) · [Mind map](corpus-mind) · [Events](corpus-event) · [Pitch](corpus-pitch) · [Cap table](corpus-captable) · [RFP](corpus-rfp) · [Postmortem](corpus-postmortem) |
+| 💰 **Finance & analytics** | [Calculator](corpus-calc) · [Credit](corpus-credit) · [Payroll](corpus-payroll) · [Pricing](corpus-pricing) · [BI](corpus-bi) · [A/B test](corpus-abtest) |
+| 🌍 **Operations & sustainability** | [Fleet](corpus-fleet) · [Logistics](corpus-logistics) · [OEE](corpus-oee) · [Energy](corpus-energy) · [Carbon](corpus-carbon) · [Cloud](corpus-cloud) · [Patent](corpus-patent) |
+| 📣 **Marketing** | [SEO](corpus-seo) · [Social](corpus-social) |
+
+## ❓ FAQ
+
+<details>
+<summary><strong>Do I need to install anything to use the tools?</strong></summary>
+
+For local development, install Node.js and npm, then follow the quick-start steps. End users can use deployed browser apps without installing a package; compatible apps may also offer browser-based installation.
+</details>
+
+<details>
+<summary><strong>Do the apps upload my files?</strong></summary>
+
+Apps are designed around client-side processing, but behavior depends on the specific tool. Review that app's implementation and permissions before handling sensitive files. P2P transfer necessarily communicates with a receiving device.
+</details>
+
+<details>
+<summary><strong>Can I run only one tool?</strong></summary>
+
+Yes. Each app has its own folder and `package.json`. Run the commands from that app's directory.
+</details>
+
+<details>
+<summary><strong>Where can I see a live demo?</strong></summary>
+
+No hosted demo link is currently configured in this repository. Run an app locally using the quick-start instructions above.
+</details>
+
+## 🤝 Contributing
+
+Bug reports, ideas, and pull requests are welcome. [Open an issue](https://github.com/corpusproject/CorpusSiteler/issues) to start a discussion.
+
+## 📄 License
 
 [MIT](LICENSE)
 
 <div align="center">
 
-**⭐ Beğendiysen yıldız ver · Star the repo if you find it useful ⭐**
+**Built for useful work, with privacy in mind.**
+
+⭐ If CorpusSiteler helps you, please star the repository. ⭐
 
 </div>
